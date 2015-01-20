@@ -388,12 +388,21 @@ var dtGridOption = {
 	exportFileName : '用户列表',
 	datas : datas,
 	columns : dtGridColumns,
+	gridContainer : 'dtGridContainer',
+	toolbarContainer : 'dtGridToolBarContainer',
 	pageSize : 10
 };
 var grid = $.fn.DtGrid.init(dtGridOption);
 $(function(){
 	grid.load();
 });</pre>
+				<div id="3.1.2" class="sub-title">html内容</div>
+				<p>添加html容器</p>
+				<pre class="brush:xml;">
+					&lt;div id="dtGridContainer_2_1_1" class="dt-grid-container"&gt;&lt;/div&gt;
+					&lt;div id="dtGridToolBarContainer_2_1_1" class="dt-grid-toolbar-container"&gt;&lt;/div&gt;
+				</pre>
+				
 				<div id="3.2" class="title">列属性</div>
 				<hr />
 				<p>DT Grid对于列是通过<code>JSON数组</code>的方式完成定义的，每一列都会有很多属性可以自由配置。</p>
