@@ -16,7 +16,7 @@ DT Grid : [http://www.dtgrid.com/download/v1.1.9/jquery.dtGrid.v1.1.9.zip](http:
 DT Grid Java Web App : [http://www.dtgrid.com/download/v1.1.9/jquery.dtGrid.v1.1.9.Java.Web.App.zip](http://www.dtgrid.com/download/v1.1.9/jquery.dtGrid.v1.1.9.Java.Web.App.zip)<br />
 DT Grid Php : [http://www.dtgrid.com/download/v1.1.9/jquery.dtGrid.v1.1.9.Php.zip](http://www.dtgrid.com/download/v1.1.9/jquery.dtGrid.v1.1.9.Php.zip)<br />
 
-###DT Grid v1.1.9 更新日志
+### DT Grid v1.1.9 更新日志
 1. 更改了国际化处理的加载方式，修改为使用lang参数配置，同一页面多语言可以共存。<br />
 2. 完善大量事件，追加事件参数，详情请参阅示例及参考文档。<br />
 3. 自定义修改每页显示条数，配置参数支持下拉选择、输入、原样显示，请参阅表格属性中的pageSizeLimit参数。<br />
@@ -31,7 +31,7 @@ DT Grid Php : [http://www.dtgrid.com/download/v1.1.9/jquery.dtGrid.v1.1.9.Php.zi
 12. Java、Php服务器端代码采用Preparestatement模式防止SQL注入。<br />
 13. 文档加入交互参数、对象属性的说明。<br />
 
-###DT Grid v1.1.9 Update
+### DT Grid v1.1.9 Update
 1. Change the load type of international, add parameter lang in grid options, multiple languages can coexist in one page.<br />
 2. Improve grid events, add event parameters, please refer to the example and reference documents.<br />
 3. Modified the number of record per page, support select, input, the original display types, please refer to the pageSizeLimit parameter in the table options.<br />
